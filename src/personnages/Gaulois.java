@@ -1,5 +1,7 @@
 package personnages;
 
+import village_gaulois.Village;
+
 public class Gaulois {
 	private String nom;
 	private int force;
@@ -12,6 +14,10 @@ public class Gaulois {
 
 	public String getNom() {
 		return nom;
+	}
+	
+	public void setVillage(Village village) {
+		
 	}
 
 	public void parler(String texte) {
